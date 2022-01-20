@@ -1,0 +1,23 @@
+{
+    "name": "lxm0087/demo",
+    "description": "this is a composer packpage demo test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "Lxm0087\\Demo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lxm0087",
+            "email": "350834527@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    }
+}
